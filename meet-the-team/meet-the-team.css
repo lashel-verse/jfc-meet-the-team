@@ -1,0 +1,98 @@
+img {
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;
+    object-fit: contain;
+    max-width: 100%;
+    float: left;
+    
+}
+/*
+This is creating my grid layout
+*/
+.wrapper {
+    display: grid;
+    grid-template-columns: lfr lfr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+
+}
+.lashel {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.robin {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.veselina {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.philip {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+.lashel {
+  background-color: rgb(97, 196, 235);
+  background-position: right bottom, left top;
+  background-repeat: repeat;
+  padding: 15px;
+  color: white;
+}
+
+.robin {
+    background-color: rgb(97, 196, 235);
+    background-position: right bottom, left top;
+    background-repeat: repeat;
+    padding: 15px;
+    color: white;
+}
+
+.veselina {
+    background-color: rgb(97, 196, 235);
+    background-position: right bottom, left top;
+    background-repeat: repeat;
+    padding: 15px;
+    color: white;
+}
+.philip {
+    background-color: rgb(97, 196, 235);
+    background-position: right bottom, left top;
+    background-repeat: repeat;
+    padding: 15px;
+    color: white;
+}
+h1 {
+      background-color: rgb(97, 196, 235);
+      color: white;
+}
+a:hover h1 {
+    color: blue;
+}
+a:hover h3 {
+      color: blue;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+/* a:visited {
+    color: white;
+} */
+a:active {
+    color: white;
+}
+h3 {
+    color: white;
+}
+.page {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+  }
